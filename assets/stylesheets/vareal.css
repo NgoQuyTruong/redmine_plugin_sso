@@ -1,0 +1,137 @@
+.sso-vareal-id {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background: #3ba8de;
+  justify-content: center;
+  cursor: pointer;
+}
+.or-text {
+  display: flex;
+  align-items: center;
+  width: 298px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.or-text::after{
+  content: '';
+  display: block;
+  width: 80px;
+  background: gray;
+  height: 2px;
+  margin-left: 10px;
+}
+
+.or-text::before{
+  content: '';
+  display: block;
+  width: 80px;
+  background: gray;
+  height: 2px;
+  margin-right: 10px;
+}
+span.title {
+  margin: 0px 10px;
+}
+.plugin-vid-hidden {
+  display: none;
+}
+.position-relative {
+  position: relative;
+}
+#common-header {
+  width: 330px;
+  position: absolute;
+  top: 24px;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  padding: 10px;
+  right: 14px;
+}
+#common-header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 60%;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #f3f4f6;
+  top: -8px;
+}
+.service-logo {
+  width: 42px;
+  max-width: 100%;
+  height: 42px;
+  padding-top: 0.5rem;
+}
+.service-list, .service-list-common {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 10px;
+}
+.service-list:hover, .service-list-common:hover {
+  overflow-y: scroll !important;
+}
+.service-item {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+a.link-service {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.d-none {
+  display: none;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.service-item a:hover {
+  color: #2996cc;
+}
+.service-list-common {
+  margin-top: 5px;
+}
+.custom-scrollbar {
+  overflow-y: scroll;
+  max-height: 315px;
+  padding: 0 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f8f9fa;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track
+{
+	background-color: #dee2e6;
+}
+
+.custom-scrollbar::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: #35393e;
+}

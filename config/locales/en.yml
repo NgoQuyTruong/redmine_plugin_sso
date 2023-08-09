@@ -1,0 +1,13 @@
+# English strings go here for Rails i18n
+en:
+  label_time: "Time"
+  label_datetime: "DateTime"
+  label_google_calendar_plural: "Google Calendar"
+  label_google_client_id: "Google Client ID"
+  label_client_secret_key: "Google Client Secret Key"
+  label_enable_google_calendar: "Enable Google Calendar"
+  label_notice_calendar: "You are not ready to use the Google Calendar feature. Please contact administrator to enable this feature"
+  label_enable_calendar: "Google Calendar feature is ready!. You can enable/disable it in Project -> Settings"
+  login_google_successful: "Your account has been successfully linked to Google Calendar"
+  logout_successful: "You have been logged out Google Account"
+  logout_failed: "Failed to log out Google Account"

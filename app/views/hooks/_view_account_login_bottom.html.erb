@@ -1,0 +1,16 @@
+<%= stylesheet_link_tag 'vareal.css', :plugin => 'redmine_vareal_id' %>
+<%
+vareal_id_url = Setting.plugin_redmine_vareal_id['VAREAL_ID_BASE_URL']
+service_id = Setting.plugin_redmine_vareal_id['SERVICE_ID']
+client_id = Setting.plugin_redmine_vareal_id['CLIENT_ID']
+login_with_vareal_link = "#{vareal_id_url}/api/v1/oauth2/authorize?service_id=#{service_id}&client_id=#{client_id}&response_type=code"
+%>
+<div class="plugin-vid-hidden"
+  data-login-url="<%= login_with_vareal_link %>">
+</div>
+<%= javascript_include_tag 'render_login_with_vid.js', :plugin => 'redmine_vareal_id' %>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    console.log('login page');
+  });
+</script>
